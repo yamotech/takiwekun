@@ -47,15 +47,21 @@ when 7 then
   puts todayWeather
   do_tweet(todayWeather)
 
+  sleep(5)
+
   # 今日のアウトラインをつぶやく
   todayOutline = get_outline_weather()
   puts todayOutline
   do_tweet(todayOutline)
 
+  sleep(5)
+
   # 今日の傘指数をつぶやく
   todayUmbrella = get_today_umbrella(weather_index)
   puts todayUmbrella
   do_tweet(todayUmbrella)
+
+  sleep(5)
 
   # 今日の紫外線指数をつぶやく
   todayUltraviolet = get_today_ultraviolet(weather_index)
@@ -94,10 +100,14 @@ when 18 then
   puts tomorrowWeather
   do_tweet(tomorrowWeather)
 
+  sleep(5)
+
   # 星空指数をつぶやく
   todayStar = get_today_star(weather_index)
   puts todayStar
   do_tweet(todayStar)
+
+  sleep(5)
 
   # ビール指数をつぶやく
   todayBeer = get_today_beer(weather_index)
@@ -112,15 +122,21 @@ when 21 then
   puts tomorrowWeather
   do_tweet(tomorrowWeather)
 
+  sleep(5)
+
   # 今日明日にかけてのアウトラインをつぶやく
   todayOutline = get_outline_weather()
   puts todayOutline
   do_tweet(todayOutline)
 
+  sleep(5)
+
   # 星空指数をつぶやく
   todayStar = get_today_star(weather_index)
   puts todayStar
   do_tweet(todayStar)
+
+  sleep(5)
 
   # 明日の服装指数をつぶやく
   tomorrowClothes = get_tomorrow_clothes(weather_index)
