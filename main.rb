@@ -141,7 +141,7 @@ when 21 then
   # 明日の服装指数をつぶやく
   tomorrowClothes = get_tomorrow_clothes(weather_index)
   puts tomorrowClothes
-  do_tweet(todayClothes)
+  do_tweet(tomorrowClothes)
 
 else
   puts "エラー：どこにも当てはまらない時間のため何も呟かない"
