@@ -4,8 +4,8 @@ require 'net/http'
 require 'uri'
 require 'json'
 
-require './weatherImage'
-require './transformationTone'
+require_relative 'weatherImage'
+require_relative 'transformationTone'
 
 def get_livedoor_weather(id)
 	# Livedoor Weather Web Serviceの天気を取得する関数

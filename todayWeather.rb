@@ -1,6 +1,6 @@
 # coding: utf-8
 
-require './weatherImage'
+require_relative 'weatherImage'
 
 # スクレイピング関係
 require 'date'
